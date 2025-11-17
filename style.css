@@ -1,0 +1,93 @@
+/* Background */
+body{
+  width:100vw;
+  height:100vh;
+  background:#111;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  margin:0;
+}
+/* Input Box */
+#input{
+  background:#222;
+  border:0rem;
+  height:2rem;
+  border-radius:2rem;
+  color:white;
+  text-align:center;
+  margin:1rem;
+  transition: all 0.25s ease
+}
+/* Flex to put button beside input */
+.flex{
+  width:19rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+/* Button */
+#button{
+  background:#222;
+  border:0rem;
+  height:2rem;
+  width:3rem;
+  margin:0rem;
+  border-radius:2rem;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:"helvetica";
+  font-size:0.75rem;
+  transition:all 0.25s ease
+}
+/* Answer Box */
+#answer{
+  background:#222;
+  border:0rem;
+  height:2rem;
+  width:11rem;
+  margin:1rem;
+  border-radius:2rem;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:"helvetica";
+  font-size:0.85rem;
+}
+/* Input here and answer here tags */
+p{
+  color:white;
+  font-family:"helvetica"
+}
+/* Palindrome checker box */
+#pal{
+  background:#222;
+  border:0rem;
+  height:4rem;
+  width:9rem;
+  margin:1rem;
+  border-radius:2rem;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:"helvetica";
+}
+/* Make outline blue when clicked on */
+input:focus {
+	outline: 1px solid #1889DE;
+}
+/* Blue shadow and scale+ when hover */
+input:hover{
+  scale:1.05;
+  box-shadow:0px 0px 1rem #6EACDB;
+}
+/* Hover for the button */
+#button:hover{
+  scale:1.1;
+  box-shadow:0px 0px 0.75rem #6EACDB;
+}
